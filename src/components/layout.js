@@ -27,9 +27,15 @@ const Layout = ({ children }) => {
 
   return (
     <div class="wrapper">
-      <Header class="header" siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <Header
+        class="header"
+        siteTitle={data.site.siteMetadata?.title || `Title`}
+      />
       <main class="main-content">{children}</main>
-      <Footer class="footer" author={data.site.siteMetadata?.author || `Andy Glassley`} />
+      <Footer
+        class="footer"
+        author={data.site.siteMetadata?.author || `Andy Glassley`}
+      />
     </div>
   )
 }
