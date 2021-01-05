@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Proof of Concept`,
+    title: `Aptera Cycling Club`,
     description: `What can you do?`,
     author: `@andyglassley`,
   },
