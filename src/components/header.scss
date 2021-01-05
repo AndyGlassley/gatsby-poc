@@ -1,0 +1,16 @@
+header {
+  background: black;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto auto;
+  padding: 1rem;
+
+  & div {
+    font-size: 2rem;
+    & a {
+      color: white;
+      text-decoration: none;
+      padding: 0 10px;
+    }
+  }
+}
